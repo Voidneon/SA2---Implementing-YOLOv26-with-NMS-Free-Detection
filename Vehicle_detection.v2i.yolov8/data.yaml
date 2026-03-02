@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+
+names: ['bus', 'car', 'jeepney', 'motorcycle', 'truck']
+
+roboflow:
+  workspace: dominics-workspace-7wrv5  
+  project: vehicle_detection-wkvjq      
+  version: 2                            
+  license: CC BY 4.0                     
+  url: https://universe.roboflow.com/dominics-workspace-7wrv5/vehicle_detection-wkvjq/dataset/2  
